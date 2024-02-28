@@ -1,8 +1,8 @@
 # GBFR Hacky Automation Scripts
 
-These are the scripts I wrote for myself to automate some farming aspects of GBFR.
+These are scripts I wrote for myself to automate some grinding aspects of GBFR.
 
-Some of the scripts (see below) utilize PixelGetColor to check certain pixels for certain colors, allowing to for example recognize that the "Continue playing this quest?" prompt is on screen and subsequently handling it.
+Some of the scripts (see below) utilize `PixelGetColor` to check certain pixels for certain colors, allowing to for example recognize that the "Continue playing this quest?" prompt is on screen and subsequently handling it.
 
 As a result, the scripts that utilize this (`Slimepede_Repeat` and `Repeat_Quest`) only work on a 3440x1440 resolution. For other resolutions you will have to change the pixels and colors the script looks for. I'm not sure whether the [resolution fix by Lyall](https://github.com/Lyall/GBFRelinkFix/tree/v1.0.4) is required but I haven't run my scripts without it and I highly recommend using that mod anyway if you're on ultrawide.
 
