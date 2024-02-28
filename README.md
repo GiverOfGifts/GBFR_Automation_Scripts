@@ -12,7 +12,7 @@ You'll have to install [AHK](https://www.autohotkey.com/download/). Be sure to g
 
 Load the script you want to run by double-clicking it. You should have an icon for it in the system tray.
 
-All scripts use `Shift+Escape` as an emergency abort. They're all started with `F1` and stopped with `Shift+F1`. Some of them have a fairly long routine (namely `Slimepede`) so just use abort.
+All scripts use `Shift+Escape` as an emergency abort. They're all started with `F1` and stopped with `Shift+F1`. Some of them have a fairly long routine (namely `Slimepede`) so just use abort. I mainly bound each to the same key so you don't accidentally start two scripts. Just close them in the system tray or use the abort key binding to close them all before loading another script.
 
 ### Wrightstone Seller
 
@@ -44,8 +44,6 @@ This script is intended to be used with Eugen, as on a proper setup he should on
 
 The script will spam click through the clear screen and recognize when the "Continue playing this quest?" prompt is up and select yes.
 It also walks forward with Eugen to a spot where he can reach the slimes in the back where the prismatic slimes' spawnpoint is. It pause buffers at the start of each quest to sync with random load times.
-
-This script only works on 30 fps because of a racy button spam. Might fix this at some point but I haven't had it not work on 30 fps.
 
 1. Go into the slime quest.
 2. Activate the script with `F1` asap.
