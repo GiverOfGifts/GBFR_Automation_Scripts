@@ -16,7 +16,7 @@ All scripts use `Shift+Escape` as an emergency abort. They're all started with `
 
 ### Wrightstone Seller
 
-First off, I highly recommend installing the mod https://www.nexusmods.com/granbluefantasyrelink/mods/83?tab=description.
+First off, I highly recommend installing the [unlocking item limit mod](https://www.nexusmods.com/granbluefantasyrelink/mods/83?tab=description).
 
 Script only works correctly on 60+ fps.
 
