@@ -117,7 +117,7 @@ ClearScreen() {
 			ClearScreenActiveCheck := 5
 		}
 
-		Sleep Random(35,50)
+		Sleep Random(75,100)
 		PushButton("LButton", Random(35,75))
 		Sleep 200
 	}

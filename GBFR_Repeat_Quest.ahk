@@ -44,6 +44,25 @@ AntiAfkPromptIsUp() {
 	return ref1_cmp && ref2_cmp && ref3_cmp && ref4_cmp && ref5_cmp && ref6_cmp
 }
 
+ClearScreenActive() {
+	ref1 := PixelGetColor(689,110, "Slow")
+    ref2 := PixelGetColor(1071,98, "Slow")
+    ref3 := PixelGetColor(1505,96, "Slow")
+
+	ref1_cmp := CompareColors(ToRGB(ref1), ToRGB(0x653d11), 40)
+    ref2_cmp := CompareColors(ToRGB(ref2), ToRGB(0xFFFb9d), 40)
+    ref3_cmp := CompareColors(ToRGB(ref3), ToRGB(0xffffd4), 40)
+
+	OutputDebug "1 " ref1_cmp
+	OutputDebug "1 " ref1
+	OutputDebug "2 " ref2_cmp
+	OutputDebug "2 " ref2
+	OutputDebug "3 " ref3_cmp
+	OutputDebug "3 " ref3
+
+	return ref1_cmp && ref2_cmp && ref3_cmp
+}
+
 ClearKeys() {
 	SendInput "{w up}"
 	Sleep 5
@@ -66,7 +85,7 @@ RunScript() {
 		Pushbutton("3", Random(50,75))
 	}
 
-	Sleep Random(35,50)
+	Sleep Random(75,100)
 	PushButton("LButton", Random(50,75))
 	Sleep 200
 }
